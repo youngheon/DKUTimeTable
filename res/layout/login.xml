@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 로그인 화면 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dp">
+	<TextView android:text="학번" android:textSize="9pt"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<EditText android:id="@+id/schoolNumber" android:layout_width="200dip"
+		android:maxLength="8" android:inputType="number" android:text=""
+		android:layout_height="40dip" android:layout_gravity="center" />
+	<TextView android:text="비밀번호" android:textSize="9pt"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<EditText android:id="@+id/password" android:layout_width="200dip" android:text=""
+		android:layout_height="40dip" android:inputType="textPassword" android:singleLine="true"
+		android:imeOptions="actionSend" android:layout_gravity="center" />
+
+</LinearLayout>

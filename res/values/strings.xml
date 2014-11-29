@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="versionName">1.1.5</string>
+	
+	<string name="app_name">DKU Time Table</string>
+	<string name="app_developer">
+		김수희 straycat4522@gmail.com \n김효진
+		hj.rozanne@gmail.com \n박아영
+		ahyoung49@gmail.com \nzxcasd12@gmail.com
+	</string>
+	<string name="app_info">
+
+		단국대학교 재학생을 위한 시간표앱입니다. 모바일 페이지의 수강시간표를 파싱하여
+		보관합니다.
+		이후에는 인터넷을 사용하지 않습니다. 단국대 앱센터에서 안드로이드 기초 강의 들으면서 만든앱이라 미약한 부분이 많습니다. 
+		 \n문의 사항은
+		<a href="mailto:zxcsad12@gmail.com">zxcasd12@gmail.com</a>
+		로 메일 주세요.
+
+	</string>
+</resources>

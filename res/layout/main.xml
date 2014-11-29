@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 메인 시간표 화면 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scroll" >
+
+    <android.support.v7.widget.GridLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/grid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:alignmentMode="alignBounds"
+        app:columnCount="6"
+        app:orientation="horizontal" />
+
+</ScrollView>

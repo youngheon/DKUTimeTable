@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="default_campus_value">100</string>
+
+    <string-array name="setting_campus_entry">
+        <item>죽전 캠퍼스</item>
+        <item>천안 캠퍼스</item>
+    </string-array>
+    
+    <string-array name="setting_campus_values">
+        <item>@string/default_campus_value</item>
+        <item>101</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 알람 설정 화면 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:key="preference_root">
+	
+    <ListPreference
+        android:key="setting_campus"
+        android:summary=""
+        android:defaultValue="@string/default_campus_value"
+        android:entries="@array/setting_campus_entry"
+        android:entryValues="@array/setting_campus_values"
+        android:dialogTitle="캠퍼스를 선택해 주세요." 
+        android:title="캠퍼스 선택" />    
+
+    <!-- 
+    
+	<CheckBoxPreference android:key="useAlarm"
+		android:title="알람 사용 여부" android:summary="강의 시작 전에 알람을 발생시킵니다."
+		android:defaultValue="false" />
+	
+	<EditTextPreference android:key="alarmTime"
+		android:defaultValue="10" android:dependency="useAlarm"
+		android:dialogTitle="몇 분 전에 알람을 울리겠습니까?" android:title="알람 시간 설정"
+		android:summary="강의 시작 몇 분 전에 알람을 울리게 할 지 입력합니다." />
+		
+		 -->
+
+</PreferenceScreen>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 프로그램 정보 화면 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="10dip"
+	android:gravity="center">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center_vertical">
+		<ImageView android:src="@drawable/icon"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+		<TextView android:text="@string/app_name" android:textSize="17sp"
+			android:textColor="#ffffff" android:layout_marginLeft="10dip"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<TextView android:text="@string/versionName"
+			android:textSize="17sp" android:textColor="#ffffff"
+			android:layout_marginLeft="5dip" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<TextView android:text="이 프로그램은" android:textSize="18sp"
+		android:textColor="#ffffff" android:layout_marginTop="20dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	<TextView android:text="@string/app_info" android:textSize="16sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="#555555" android:autoLink="all" android:textColor="#dddddd" />
+
+	<TextView android:text="만든이" android:textSize="18sp"
+		android:textColor="#ffffff" android:layout_marginTop="20dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	<TextView android:text="@string/app_developer"
+		android:textSize="16sp" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="#555555"
+		android:textColor="#dddddd" />
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 강의정보 화면 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <TableLayout 
+        android:layout_margin="5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" android:layout_gravity="center">
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:gravity="center_vertical"
+                android:text="강의명"
+                android:textSize="8.0pt" />
+
+            <EditText
+                android:id="@+id/lecture"
+                style="@style/Highlight" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:layout_margin="3dip"
+            android:background="#909090" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dip"
+                android:gravity="center_vertical"
+                android:text="교수"
+                android:textSize="8.0pt" />
+
+            <EditText
+                android:id="@+id/professor"
+                style="@style/Highlight" />
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:layout_margin="3dip"
+            android:background="#909090" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="3dip"
+                android:text="시간 (강의실)"
+                android:textSize="7.5pt" />
+
+            <EditText
+                android:id="@+id/timeRoom"
+                style="@style/Highlight"
+                android:layout_gravity="center_vertical"/>
+        </TableRow>
+
+        <View
+            android:layout_height="1dip"
+            android:layout_margin="3dip"
+            android:background="#909090" />
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/memo"
+                android:layout_span="2"
+                
+                android:gravity="top"
+                android:hint="메모를 입력하세요."
+                android:minLines="6"
+                android:singleLine="false" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

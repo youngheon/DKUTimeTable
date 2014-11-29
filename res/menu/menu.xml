@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/login" android:title="시간표 다시 가져오기"
+		android:icon="@drawable/refresh" />
+		
+	<item android:id="@+id/send_image" android:title="이미지 보내기"
+		android:icon="@android:drawable/ic_menu_send" />
+
+	<item android:id="@+id/settings" android:title="설정"
+		android:icon="@android:drawable/ic_menu_preferences" />
+	
+	<item android:id="@+id/food_menu" android:title="금주의 식단 바로가기"
+		android:icon="@drawable/icon_food" />
+
+	<item android:id="@+id/program_info" android:title="앱 정보"
+		android:icon="@android:drawable/ic_menu_info_details" />
+		
+	<item android:title="더보기" android:icon="@android:drawable/ic_menu_more">
+		<menu>
+			<item android:id="@+id/backup" android:title="백업" />
+			<item android:id="@+id/restore" android:title="복원" />
+		</menu>
+	</item>
+</menu>

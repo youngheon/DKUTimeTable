@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="dk.too.timetable" android:versionName="@string/versionName" android:versionCode="18">
+	
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.VIBRATE" />	
+	<uses-sdk android:minSdkVersion="7" android:targetSdkVersion="14" />
+	
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:debuggable="false">
+
+		<activity android:name=".MyTimeTable" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".ProgramInfo">
+		</activity>
+
+		<activity android:name=".SettingPreference">
+		</activity>
+		
+		<activity android:name=".WebViewActivity">
+		</activity>
+
+		<receiver android:name=".MyAppwidgetProvider" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="dk.too.timetable.MyAppwidgetProvider.UPDATE_WIDGET" />
+			</intent-filter>
+
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/my_appwidget_provider" />
+		</receiver>
+
+		<receiver android:name=".AlarmReceiver"></receiver>
+
+	</application>
+	
+</manifest> 
