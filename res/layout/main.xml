@@ -5,8 +5,8 @@
     android:layout_height="fill_parent"
     android:id="@+id/scroll" >
 
-    <android.support.v7.widget.GridLayout
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+	<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/grid"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -14,5 +14,6 @@
         app:alignmentMode="alignBounds"
         app:columnCount="6"
         app:orientation="horizontal" />
+        
 
 </ScrollView>
